@@ -7,3 +7,5 @@ Alas, they have this weird online interface that doesn't allow you to download a
 Here's what is essentially a for loop to go through all the pages. Just get the book ID from the website and you're all set.
 
 (It's kind of sad, but apparently you don't even need to be signed in, or have purchased this book, to download it.) I'll assume you have..
+
+If you'd like to then convert the individual pages to PDF, just use `convert *.jpg -auto-orient book.pdf`
